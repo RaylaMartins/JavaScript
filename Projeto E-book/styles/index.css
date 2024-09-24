@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: Old TT;
+    src: url(../styles/images/Old_Standard_TT/OldStandardTT-Bold.ttf);
+}
+
+@font-face {
+    font-family: Old TT;
+    src: url(../styles/images/Old_Standard_TT/OldStandardTT-Regular.ttf);
+    font: bold;
+}   
+
+@font-face {
+    font-family: Bebas;
+    src: url(../styles/images/images/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+
+header {
+    width: 100%;
+    height:30px;
+    padding: 10px 0px;
+    justify-content: space-around;
+    display: flex;
+    word-spacing: 10px;
+    color:rgb(221, 221, 221) ;
+    background-color:rgba(29, 29, 29, 0.74);
+}
+
+#menuDireito{
+    word-spacing: 10px;
+}
+
+h3{
+    font-family: Bebas;
+}
+
+p{
+    font-family: Old TT;
+}
+
+.livro{
+    width: 20%;
+    height: 400px;
+    background-color: rgb(221, 221, 221);
+    border-radius: solid black;
+    
+}
+
+.livro img{
+    width: 90%;
+    height: 250px;
+    padding: 10px 0px;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color: rgb(221, 221, 221);
+    font-family: Bebas;
+}
